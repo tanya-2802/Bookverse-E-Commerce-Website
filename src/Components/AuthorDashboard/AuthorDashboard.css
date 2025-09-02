@@ -1,0 +1,42 @@
+.author-dashboard {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .author-dashboard h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .author-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .author-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .author-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .author-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #2c3e50;
+  }
+  
+  .author-sales {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  

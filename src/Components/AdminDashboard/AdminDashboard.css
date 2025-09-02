@@ -1,0 +1,53 @@
+.author-dashboard-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .author-sales-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .author-item {
+    flex: 1 1 200px;
+    background-color: #f3f4f6;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid #ddd;
+  }
+  
+  .author-item:hover {
+    background-color: #e2e8f0;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  }
+  
+  .author-name {
+    font-weight: 600;
+    font-size: 18px;
+    color: #4a5568;
+  }
+  
+  .books-sold {
+    display: block;
+    font-size: 24px;
+    color: #2d3748;
+    margin-top: 10px;
+  }
+  
