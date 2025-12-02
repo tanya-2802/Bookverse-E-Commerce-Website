@@ -6,11 +6,6 @@ Admins can manage products, users, and orders.
 
 This project follows all the guidelines required for academic evaluation (Frontend, Backend, EJS, MongoDB, Tailwind, API testing, JWT authentication, CRUD, etc.).
 
-🚀 Live Demo
-
-(Optional — Add later if deployed)
-https://your-vercel-or-netlify-link.com
-
 🐙 GitHub Repository
 
 https://github.com/tanya-2802/BookVerse
@@ -107,18 +102,23 @@ All REST API endpoints were tested using Hoppscotch/Postman:
 
 📷 Screenshots
 
-### 🏠 Homepage
-![Home Page](public/images/HomePage.png)
+### 🏡 Homepage
+![Home Page](frontend/public/images/HomePage.png)
 
-### 📖 Book Detail Page
-![Product Page](public/images/OrderPage.png)
+### 📚 Book Detail Page
+![Product Page](frontend/public/images/OrderPage.png)
 
-### 🛒 Cart Page
-![Cart Page](public/images/ShoppingCart.png)
+### 🛍️ Cart Page
+![Cart Page](frontend/public/images/ShoppingCart.png)
 
-### 🛒 Shipping Page
-![Shipping Page](public/images/Shipping.png)
+### 🚚 Shipping Page
+![Shipping Page](frontend/public/images/Shipping.png)
 
+### 💳 Place Order Page
+![Place Order Page](frontend/public/images/PlaceOrder.png)
+
+### 🎉 Order Success Page
+![Order Success Page](frontend/public/images/SuccessOrder.png)
 
 📌 Third-Party Tools Used
 
