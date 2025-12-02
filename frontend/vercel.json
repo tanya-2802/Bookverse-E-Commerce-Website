@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://bookverse-etpp.onrender.com/api/:path*"
+    }
+  ]
+}
