@@ -1,0 +1,66 @@
+/* ------------------------------------------
+  TAILWIND CSS DIRECTIVES
+------------------------------------------- */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------
+   GLOBAL STYLES (Your custom overrides)
+------------------------------------------- */
+
+body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+a {
+  @apply text-indigo-400 hover:text-indigo-300;
+}
+
+/* Ensuring Bootstrap Custom styles still apply */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Product cards */
+.product-title {
+  @apply text-lg font-semibold text-gray-100;
+}
+
+/* Carousel captions */
+.carousel-caption h2 {
+  @apply text-white text-xl font-semibold;
+}
+
+/* Buttons */
+button {
+  @apply bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-4 py-2 rounded-md;
+}
+
+/* Forms */
+input, select {
+  @apply bg-gray-800 border border-gray-700 text-gray-100 rounded-md px-3 py-2;
+}
+
+/* Global dark mode */
+body {
+  background-color: #0f0f0f;
+  color: #e5e5e5;
+}
+
+/* Make cards dark */
+.card {
+  background-color: #1a1a1a !important;
+  border: 1px solid #2a2a2a !important;
+  color: #e5e5e5;
+}
+
+.product-title a {
+  color: #e5e5e5 !important;
+}
+
+h1, h2, h3, h4 {
+  color: #e5e5e5 !important;
+}

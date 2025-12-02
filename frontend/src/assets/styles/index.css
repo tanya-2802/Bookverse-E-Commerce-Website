@@ -1,0 +1,120 @@
+main {
+  min-height: 80vh;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-title {
+  height: 2.5em; /* Set a fixed height */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Add ellipsis for long text */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+table td,
+table th {
+  text-align: center;
+}
+
+.review {
+  margin-top: 30px;
+}
+
+.review h2 {
+  font-size: 24px;
+  background: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.review button {
+  margin-top: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Dark theme overrides for product/detail UI with red accents */
+/* Cards and list groups */
+.card,
+.list-group-item,
+.product-detail-panel,
+.review .list-group-item {
+  background-color: #0f0f10 !important;
+  color: #e6e6e6 !important;
+  border-color: #222427 !important;
+}
+
+/* Make the right-side purchase card stand out slightly */
+.card {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+/* Buttons - primary -> red accent */
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:hover {
+  background: linear-gradient(90deg,#ef4444,#dc2626) !important;
+  border-color: #b91c1c !important;
+  color: #fff !important;
+}
+
+/* Outline primary (used for small buttons) */
+.btn-outline-primary {
+  color: #ef4444 !important;
+  border-color: rgba(239,68,68,0.15) !important;
+}
+
+/* Form controls (select, inputs) to match dark theme */
+.form-control,
+select.form-control {
+  background-color: #0b0b0c !important;
+  color: #e6e6e6 !important;
+  border: 1px solid #222427 !important;
+}
+
+/* Rating stars use red accent */
+.rating svg,
+.rating span svg {
+  color: #ef4444 !important;
+}
+
+/* Review header and messages */
+.review h2,
+.review .msg {
+  background: rgba(255,255,255,0.03) !important;
+  color: #f7f7f7 !important;
+}
+
+/* Make links use red accent on hover */
+a:hover {
+  color: #ff7b7b !important;
+}
+
+/* Ensure product image area stays centered on dark background */
+.product-image-center {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: linear-gradient(180deg, #050505, #0b0b0c);
+  padding: 1rem;
+}
+
